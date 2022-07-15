@@ -37,7 +37,7 @@ const Home = () => (
       <div className="buttons">
         <a
           className="button"
-          href="https://github.com/blitz-js/blitz/blob/master/USER_GUIDE.md?utm_source=blitz-new&utm_medium=app-template&utm_campaign=blitz-new"
+          href="https://github.com/blitz-js/legacy-framework/blob/master/USER_GUIDE.md?utm_source=blitz-new&utm_medium=app-template&utm_campaign=blitz-new"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -45,7 +45,7 @@ const Home = () => (
         </a>
         <a
           className="button-outline"
-          href="https://github.com/blitz-js/blitz"
+          href="https://github.com/blitz-js/legacy-framework"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -5,7 +5,7 @@ export default RecipeBuilder()
   .setName("Phusion Passenger")
   .setDescription("")
   .setOwner("peter.nyari@ioflair.com")
-  .setRepoLink("https://github.com/blitz-js/blitz")
+  .setRepoLink("https://github.com/blitz-js/legacy-framework")
   .addNewFilesStep({
     stepId: "addPassengerEntrypoint",
     stepName: "Add passenger.js",

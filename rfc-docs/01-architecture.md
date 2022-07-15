@@ -26,7 +26,7 @@ Web support will be released first, followed by React Native. We are pursuing th
 6. Stability
 7. Community over Code
 
-[The Blitz Manifesto](https://github.com/blitz-js/blitz/blob/canary/MANIFESTO.md) explains these principles in detail.
+[The Blitz Manifesto](https://github.com/blitz-js/legacy-framework/blob/canary/MANIFESTO.md) explains these principles in detail.
 
 ## Table of Contents
 
@@ -292,7 +292,7 @@ export default async function special(data: any, ctx?: SpecialContext) {
 
 ## 5. File Structure and Routing
 
-[Blitz file structure and routing are detailed in a separate RFC](https://github.com/blitz-js/blitz/pull/74). We'd love your feedback on that too!
+[Blitz file structure and routing are detailed in a separate RFC](https://github.com/blitz-js/legacy-framework/pull/74). We'd love your feedback on that too!
 
 ## 6. Authentication
 

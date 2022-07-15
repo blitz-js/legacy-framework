@@ -1049,7 +1049,7 @@ async function revokeSession(
   // Go ahead and create a new anon session. This
   // This fixes race condition where all client side queries get refreshed
   // in parallel and each creates a new anon session
-  // https://github.com/blitz-js/blitz/issues/2746
+  // https://github.com/blitz-js/legacy-framework/issues/2746
   return createAnonymousSession(req, res)
 }
 

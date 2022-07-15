@@ -7,7 +7,7 @@ export default RecipeBuilder()
     `Implements a GraphQL API using Apollo Server that you can extend with your prisma models.`,
   )
   .setOwner("jeremy@jeremyliberman.com")
-  .setRepoLink("https://github.com/blitz-js/blitz")
+  .setRepoLink("https://github.com/blitz-js/legacy-framework")
   .addAddDependenciesStep({
     stepId: "addDeps",
     stepName: "Add dependencies",

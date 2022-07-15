@@ -57,7 +57,7 @@ export function getPageHandler(ctx: ServerlessHandlerCtx) {
     normalizeVercelUrl,
   } = getUtils(ctx)
 
-  // Required for session middleware https://github.com/blitz-js/blitz/issues/2772
+  // Required for session middleware https://github.com/blitz-js/legacy-framework/issues/2772
   loadConfigAtRuntime()
 
   async function renderReqToHTML(

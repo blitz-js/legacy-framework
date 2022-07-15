@@ -4,7 +4,7 @@ export default RecipeBuilder()
   .setName("test")
   .setDescription("test package")
   .setOwner("blitz@blitzjs.com")
-  .setRepoLink("https://github.com/blitz-js/blitz")
+  .setRepoLink("https://github.com/blitz-js/legacy-framework")
   .printMessage({
     stepId: "print-message",
     stepName: "Print message",

@@ -53,7 +53,7 @@ export default RecipeBuilder()
   .setName("Reflexjs")
   .setDescription("This will install all necessary dependencies and configure Reflexjs for use.")
   .setOwner("tundera <stackshuffle@gmail.com>")
-  .setRepoLink("https://github.com/blitz-js/blitz")
+  .setRepoLink("https://github.com/blitz-js/legacy-framework")
   .addAddDependenciesStep({
     stepId: "addDeps",
     stepName: "npm dependencies",

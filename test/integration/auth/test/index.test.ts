@@ -184,7 +184,7 @@ const runTests = (mode: string) => {
 
     describe("Page.redirectAuthenticatedTo", () => {
       it("should work when redirecting to page with useQuery", async () => {
-        // https://github.com/blitz-js/blitz/issues/2527
+        // https://github.com/blitz-js/legacy-framework/issues/2527
 
         // Ensure logged in
         const browser = await webdriver(appPort, "/login")
@@ -205,7 +205,7 @@ const runTests = (mode: string) => {
 
     describe("Layout.redirectAuthenticatedTo", () => {
       it("should work when redirecting to page with useQuery", async () => {
-        // https://github.com/blitz-js/blitz/issues/2527
+        // https://github.com/blitz-js/legacy-framework/issues/2527
 
         // Ensure logged in
         const browser = await webdriver(appPort, "/login")
@@ -226,7 +226,7 @@ const runTests = (mode: string) => {
 
     describe("setPublicData", () => {
       it("it should not throw CSRF error", async () => {
-        // https://github.com/blitz-js/blitz/issues/2448
+        // https://github.com/blitz-js/legacy-framework/issues/2448
 
         // ensure logged out
         const browser = await webdriver(appPort, "/login")

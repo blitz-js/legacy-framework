@@ -2,7 +2,7 @@ import {addImport, paths, Program, RecipeBuilder} from "@blitzjs/installer"
 import type {NodePath} from "ast-types/lib/node-path"
 import j, {JSXIdentifier} from "jscodeshift"
 
-// Copied from https://github.com/blitz-js/blitz/pull/805, let's add this to the @blitzjs/installer
+// Copied from https://github.com/blitz-js/legacy-framework/pull/805, let's add this to the @blitzjs/installer
 function wrapComponentWithChakraProvider(program: Program) {
   program
     .find(j.JSXElement)
@@ -82,7 +82,7 @@ export default RecipeBuilder()
   .setName("Next UI")
   .setDescription(`This will install all necessary dependencies and configure Next UI for use.`)
   .setOwner("moyurusuto.mochi@gmail.com")
-  .setRepoLink("https://github.com/blitz-js/blitz")
+  .setRepoLink("https://github.com/blitz-js/legacy-framework")
   .addAddDependenciesStep({
     stepId: "install",
     stepName: "Install Next UI",

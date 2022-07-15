@@ -6,7 +6,7 @@ export default RecipeBuilder()
   .setName("Tailwind CSS")
   .setDescription(`This will install all necessary dependencies and configure Tailwind for use.`)
   .setOwner("adam@markon.codes")
-  .setRepoLink("https://github.com/blitz-js/blitz")
+  .setRepoLink("https://github.com/blitz-js/legacy-framework")
   .addAddDependenciesStep({
     stepId: "addDeps",
     stepName: "npm dependencies",

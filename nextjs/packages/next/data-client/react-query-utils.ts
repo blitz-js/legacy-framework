@@ -183,7 +183,7 @@ export function setQueryData<TInput, TResult, T extends AsyncFunc>(
       result = invalidateQuery(resolver, params)
     }
     if (isClient) {
-      // Fix for https://github.com/blitz-js/blitz/issues/1174
+      // Fix for https://github.com/blitz-js/legacy-framework/issues/1174
       requestIdleCallback(() => {
         res(result)
       })

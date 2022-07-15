@@ -2,7 +2,7 @@
   "name": "@blitzjs/generator",
   "version": "0.45.5",
   "description": "File generation for the Blitz CLI",
-  "homepage": "https://github.com/blitz-js/blitz#readme",
+  "homepage": "https://github.com/blitz-js/legacy-framework#readme",
   "license": "MIT",
   "scripts": {
     "dev": "yarn build:templates --watch",
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blitz-js/blitz.git"
+    "url": "git+https://github.com/blitz-js/legacy-framework.git"
   },
   "dependencies": {
     "@babel/core": "7.12.10",

@@ -16,7 +16,7 @@ describe("`install` command", () => {
   it("properly parses remote installer args", () => {
     const normalizePath = Install.prototype.normalizeRecipePath
     expect(normalizePath("test-installer")).toEqual({
-      path: "https://github.com/blitz-js/blitz",
+      path: "https://github.com/blitz-js/legacy-framework",
       subdirectory: "recipes/test-installer",
       location: RecipeLocation.Remote,
     })

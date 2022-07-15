@@ -8,7 +8,7 @@ function Product() {
   const id = useParam("id", "number")
   const [product] = useQuery(getProduct, {where: {id}})
 
-  // Here to test for https://github.com/blitz-js/blitz/issues/1443
+  // Here to test for https://github.com/blitz-js/legacy-framework/issues/1443
   if (!product) throw new Error("useQuery did not throw!")
 
   return (

@@ -4,7 +4,7 @@
 
 For using Blitz, go to https://blitzjs.com/
 
-For contributing to Blitz or this fork, read [the contributing guide](https://blitzjs.com/docs/contributing) and submit PRs to [the main repo](https://github.com/blitz-js/blitz).
+For contributing to Blitz or this fork, read [the contributing guide](https://blitzjs.com/docs/contributing) and submit PRs to [the main repo](https://github.com/blitz-js/legacy-framework).
 
 This repo lives in the top level `nextjs` folder in the main repo.
 

@@ -178,7 +178,9 @@ describe("`new` command", () => {
           flag: "r",
         })
         expect(
-          readme.includes("This is a minimal [Blitz.js](https://github.com/blitz-js/blitz) app."),
+          readme.includes(
+            "This is a minimal [Blitz.js](https://github.com/blitz-js/legacy-framework) app.",
+          ),
         ).toBe(true)
       })
     })
@@ -197,7 +199,9 @@ describe("`new` command", () => {
           flag: "r",
         })
         expect(
-          readme.includes("This is a [Blitz.js](https://github.com/blitz-js/blitz) app."),
+          readme.includes(
+            "This is a [Blitz.js](https://github.com/blitz-js/legacy-framework) app.",
+          ),
         ).toBe(true)
       })
     })

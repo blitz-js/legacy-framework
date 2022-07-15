@@ -23,7 +23,7 @@ const Home: BlitzPage = () => {
           </a>
           <a
             className="button-outline"
-            href="https://github.com/blitz-js/blitz"
+            href="https://github.com/blitz-js/legacy-framework"
             target="_blank"
             rel="noopener noreferrer"
           >

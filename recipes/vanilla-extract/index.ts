@@ -30,7 +30,7 @@ export default RecipeBuilder()
     `This will install all necessary dependencies and configure vanilla-extract for use.`,
   )
   .setOwner("JuanM04 <me@juanm04.com>")
-  .setRepoLink("https://github.com/blitz-js/blitz")
+  .setRepoLink("https://github.com/blitz-js/legacy-framework")
   .addAddDependenciesStep({
     stepId: "addDeps",
     stepName: "Add dependencies",

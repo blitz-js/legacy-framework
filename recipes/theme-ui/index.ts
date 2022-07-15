@@ -33,7 +33,7 @@ function initializePlugin(program: Program, statement: j.Statement) {
   return program
 }
 
-// Copied from https://github.com/blitz-js/blitz/pull/805, let's add this to the @blitzjs/installer
+// Copied from https://github.com/blitz-js/legacy-framework/pull/805, let's add this to the @blitzjs/installer
 function wrapComponentWithThemeProvider(program: Program) {
   program
     .find(j.JSXElement)
@@ -88,7 +88,7 @@ export default RecipeBuilder()
   .setName("Theme UI")
   .setDescription(`This will install all necessary dependencies and configure Theme UI for use.`)
   .setOwner("tundera <stackshuffle@gmail.com>")
-  .setRepoLink("https://github.com/blitz-js/blitz")
+  .setRepoLink("https://github.com/blitz-js/legacy-framework")
   .addAddDependenciesStep({
     stepId: "addDeps",
     stepName: "npm dependencies",

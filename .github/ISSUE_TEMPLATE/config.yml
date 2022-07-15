@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/prisma/prisma/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
     about: All Prisma issues should be opened in the Prisma Github
   - name: Question, Discussion, Idea?
-    url: https://github.com/blitz-js/blitz/discussions/new
+    url: https://github.com/blitz-js/legacy-framework/discussions/new
     about: Ask questions and discuss with other community members

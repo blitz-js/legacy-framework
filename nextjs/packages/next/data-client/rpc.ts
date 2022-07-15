@@ -140,7 +140,7 @@ export function buildRpcClient({
             // This also runs on logout, because on logout a new anon session is created
             debug('Session created')
             setTimeout(async () => {
-              // Do these in the next tick to prevent various bugs like https://github.com/blitz-js/blitz/issues/2207
+              // Do these in the next tick to prevent various bugs like https://github.com/blitz-js/legacy-framework/issues/2207
               debug('Invalidating react-query cache...')
               await queryClient.cancelQueries()
               await queryClient.resetQueries()
@@ -150,7 +150,7 @@ export function buildRpcClient({
               // Page.authenticate = {redirectTo: '/login'}
               // Without this delay, queries that require authentication on the original page
               // will still run (but fail because you are now logged out)
-              // Ref: https://github.com/blitz-js/blitz/issues/1935
+              // Ref: https://github.com/blitz-js/legacy-framework/issues/1935
             }, 100)
           }
           if (response.headers.get(HEADER_CSRF_ERROR)) {
