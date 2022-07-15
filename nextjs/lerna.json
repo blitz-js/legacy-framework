@@ -8,7 +8,7 @@
     },
     "publish": {
       "npmClient": "npm",
-      "allowBranch": ["master", "canary"],
+      "allowBranch": ["master", "main"],
       "registry": "https://registry.npmjs.org/"
     }
   },
