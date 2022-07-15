@@ -105,7 +105,7 @@ export class Install extends Command {
       name: "recipe",
       required: false,
       description:
-        "Name of a Blitz recipe from @blitzjs/blitz/recipes, or a file path to a local recipe definition",
+        "Name of a Blitz recipe from @blitzjs/legacy-framework/recipes, or a file path to a local recipe definition",
     },
     {
       name: "recipe-flags",
@@ -116,18 +116,18 @@ export class Install extends Command {
 
   // exposed for testing
   normalizeRecipePath(recipeArg: string): RecipeMeta {
-    const isNavtiveRecipe = /^([\w\-_]*)$/.test(recipeArg)
+    const isNativeRecipe = /^([\w\-_]*)$/.test(recipeArg)
     const isUrlRecipe = recipeArg.startsWith(GH_ROOT)
     const isGitHubShorthandRecipe = /^([\w-_]*)\/([\w-_]*)$/.test(recipeArg)
-    if (isNavtiveRecipe || isUrlRecipe || isGitHubShorthandRecipe) {
+    if (isNativeRecipe || isUrlRecipe || isGitHubShorthandRecipe) {
       let repoUrl
       let subdirectory
       switch (true) {
         case isUrlRecipe:
           repoUrl = recipeArg
           break
-        case isNavtiveRecipe:
-          repoUrl = `${GH_ROOT}blitz-js/blitz`
+        case isNativeRecipe:
+          repoUrl = `${GH_ROOT}blitz-js/legacy-framework`
           subdirectory = `recipes/${recipeArg}`
           break
         case isGitHubShorthandRecipe:
